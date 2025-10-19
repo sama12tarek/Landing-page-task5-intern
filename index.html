@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tech product</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet">
+<link href="./dist/output.css" rel="stylesheet">
+
+</head>
+<body class="bg-white  text-black   dark:bg-gray-800 dark:text-white">
+<nav class="w-full mx-auto bg-white text-black dark:bg-gray-800 dark:text-white">
+  <div class="md:max-w-7xl mx-auto px-4">
+    <div class="flex flex-col md:flex-row items-center justify-between h-auto py-4 gap-4">
+
+    
+      <div class=" flex flex-shrink-0 gap-5 justify-evenly">
+        <a class="text-xl font-bold" href="#">TechProduct</a>
+        <button class="md:hidden text-2xl" id="menu-toggle" onclick="toggleNavbar()">
+      <i class="fas fa-bars"></i>
+    </button>
+  
+      </div>
+ 
+      <div class="flex flex-col md:flex-row justify-between items-center w-full md:w-auto  bg-white text-black  dark:bg-gray-800 dark:text-white">
+  <div class="flex flex-col md:flex-row gap-4 md:gap-6 items-center
+             px-4 py-4 z-50" id="menu">
+
+    <a class="bg-gray-950/50 text-white px-3 py-2 rounded-md text-sm font-medium" href="#Feature">Feature</a>
+    <a class="hover:bg-white/10 px-3 py-2 rounded-md text-sm font-medium" href="#Testimonials">Testimonials</a>
+    <a class="hover:bg-white/10 px-3 py-2 rounded-md text-sm font-medium" href="#Pricing">Pricing</a>
+    <a class="hover:bg-white/10 px-3 py-2 rounded-md text-sm font-medium" href="#GetStarted">GetStarted</a>
+  </div>
+<button class="text-xl mt-4 md:mt-0" aria-label="Toggle Theme" onclick="toggleMode()">
+  <i class="fas fa-moon" id="theme-icon"></i>
+</button>
+
+
+
+</div>
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+
+<div class="flex flex-col md:flex-row items-center justify-between gap-4 " id="hero">
+
+  <div class="title mb-5 text-center  ">
+    <h1 class="text-4xl font-bold leading-tight mb-4 text-center">Empower Your Team to Deliver Great Software</h1>
+  <p class="text-lg text-gray-600 dark:text-gray-300 text-center">Streamline your team's workflow with real-time collaboration, version control, and smart task management.</p>
+  <button class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-5" type="button">getStarted</button>
+<button class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" type="button">Learn more..</button>
+
+  </div>
+  <div class="object-fit-cover  ">
+    <img src="./images/istockphoto-2150307283-1024x1024.jpg" alt="teamwork">
+  </div>
+
+</div>
+<!-- Features Section -->
+<section class=" py-20 text-center   text-gray-800 dark:text-white" id="Feature">
+  <h2 class="text-3xl font-bold mb-10">Top Features</h2>
+
+  <div class=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
+    
+    <!-- Feature Card 1 -->
+    <div class="p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+      <i class="fas fa-rocket text-blue-600 text-3xl mb-4"></i>
+      <h3 class="text-xl font-semibold mb-2">Fast Deployment</h3>
+      <p class="text-gray-600 dark:text-gray-300">Launch new projects in minutes with built-in automation tools.</p>
+    </div>
+
+    <!-- Feature Card 2 -->
+    <div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg transition duration-300">
+      <i class="fas fa-users text-blue-600 text-3xl mb-4"></i>
+      <h3 class="text-xl font-semibold mb-2">Team Collaboration</h3>
+      <p class="text-gray-600 dark:text-gray-300">Real-time collaboration with comments, task tracking, and roles.</p>
+    </div>
+
+    <!-- Feature Card 3 -->
+    <div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg transition duration-300">
+      <i class="fas fa-shield-alt text-blue-600 text-3xl mb-4"></i>
+      <h3 class="text-xl font-semibold mb-2">Secure & Reliable</h3>
+      <p class="text-gray-600 dark:text-gray-300">We use enterprise-grade encryption and cloud backups.</p>
+    </div>
+
+  </div>
+</section>
+
+<div class="w-full py-20  " id="Testimonials">
+  <h1 class="text-center text-3xl font-bold text-gray-800 dark:text-white mb-10">Testimonials</h1>
+
+  <div class="flex flex-col md:flex-row justify-center items-stretch gap-6 px-4 max-w-6xl mx-auto ">
+
+    <!-- Testimonial Card 1 -->
+    <div class="  dark:bg-sky-700 text-black dark:text-white p-6 rounded-xl shadow-md flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
+      <img class="w-16 h-16 rounded-full object-cover mb-4" src="./images/team-1.jpg" alt="samaa tarek">
+      <p class="text-gray-600 dark:text-gray-300 mb-4">"I finally feel in control of all our tech projects. I know what’s happening, who’s doing what, and when it’ll be done — all in one place."</p>
+      <div class="flex justify-center items-center gap-1 text-yellow-400 mb-2">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+      <h5 class="font-semibold">Samaa Tarek</h5>
+    </div>
+
+    <!-- Testimonial Card 2 -->
+    <div class="bg-white dark:bg-sky-700 text-black dark:text-white p-6 rounded-xl shadow-md flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
+      <img class="w-16 h-16 rounded-full object-cover mb-4" src="./images/team-2.jpg" alt="Devid Mo">
+      <p class="text-gray-600 dark:text-gray-300 mb-4">"As a developer, I usually hate project tools. But TechProduct just gets it. Clean, fast, and no extra noise."</p>
+      <div class="flex justify-center items-center gap-1 text-yellow-400 mb-2">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+      <h5 class="font-semibold">Devid Mo</h5>
+    </div>
+
+    <!-- Testimonial Card 3 -->
+    <div class="bg-white dark:bg-sky-700 text-black dark:text-white p-6 rounded-xl shadow-md flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
+      <img class="w-16 h-16 rounded-full object-cover mb-4" src="./images/team-3.jpg" alt="John Josef">
+      <p class="text-gray-600 dark:text-gray-300 mb-4">"We tried several platforms before, but none felt as intuitive and flexible as TechProduct. Now, it's a must-have for every team we onboard."</p>
+      <div class="flex justify-center items-center gap-1 text-yellow-400 mb-2">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+      <h5 class="font-semibold">John Josef</h5>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="w-full  py-6 " id="Pricing">
+  <h1 class="text-center text-3xl font-bold mb-10">Pricing Plans</h1>
+  
+  <div class="flex flex-col md:flex-row justify-between items-stretch gap-6  px-4  mx-auto">
+
+    <!-- Starter Plan -->
+    <div class="bg-white dark:bg-gray-800 text-black dark:text-white p-4 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 w-full md:w-1/3">
+      <h3 class="text-2xl font-semibold mb-2">Starter</h3>
+      <h4 class="text-xl font-bold text-blue-600 dark:text-blue-400 mb-4">$9 / mo</h4>
+      <ul class="space-y-2 mb-6">
+        <li><i class="fa-solid fa-check-double text-green-500 me-2"></i> Basic features</li>
+        <li><i class="fa-solid fa-check-double text-green-500 me-2"></i> 10 projects</li>
+        <li><i class="fa-solid fa-check-double text-green-500 me-2"></i> Email support</li>
+      </ul>
+      <button class="w-full text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5">Choose Plan</button>
+    </div>
+
+    <!-- Pro Plan -->
+    <div class="bg-gradient-to-br from-blue-600 to-blue-800 text-white p-4 rounded-xl shadow-2xl hover:scale-105 transition-transform duration-300 w-full md:w-1/3 scale-105">
+      <h3 class="text-2xl font-semibold mb-2">Pro</h3>
+      <h4 class="text-xl font-bold mb-4">$29 / mo</h4>
+      <ul class="space-y-2 mb-6">
+        <li><i class="fa-solid fa-check-double text-lime-300 me-2"></i> All starter features</li>
+        <li><i class="fa-solid fa-check-double text-lime-300 me-2"></i> Unlimited projects</li>
+        <li><i class="fa-solid fa-check-double text-lime-300 me-2"></i> Priority support</li>
+      </ul>
+      <button class="w-full text-blue-800 bg-white hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5">Choose Plan</button>
+    </div>
+
+    <!-- Enterprise Plan -->
+    <div class="bg-white dark:bg-gray-800 text-black dark:text-white p-4 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 w-full md:w-1/3">
+      <h3 class="text-2xl font-semibold mb-2">Enterprise</h3>
+      <h4 class="text-xl font-bold text-blue-600 dark:text-blue-400 mb-4">Custom Pricing</h4>
+      <ul class="space-y-2 mb-6">
+        <li><i class="fa-solid fa-check-double text-green-500 me-2"></i> Custom features</li>
+        <li><i class="fa-solid fa-check-double text-green-500 me-2"></i> Custom number of projects</li>
+        <li><i class="fa-solid fa-check-double text-green-500 me-2"></i> Dedicated support</li>
+      </ul>
+      <button class="w-full text-white bg-gradient-to-r from-teal-400 to-lime-400 hover:from-teal-500 hover:to-lime-500 focus:outline-none focus:ring-4 focus:ring-lime-300 font-medium rounded-md text-sm px-5 py-2.5">Contact Us</button>
+    </div>
+
+  </div>
+  <div class="text-center mt-12">
+  <p class="text-sm dark:text-gray-300 md:text-lg">
+    Not sure which plan fits your needs?
+    <a class="text-blue-600 dark:text-blue-400 md:font-semibold hover:underline" href="#Contact">
+      Contact our sales team
+    </a>
+    and we’ll help you decide.
+  </p>
+</div>
+
+
+</div>
+
+
+<section class="bg-blue-600 text-white py-12 text-center" id="GetStarted">
+  <h2 class="text-3xl font-bold mb-4">Ready to take your workflow to the next level?</h2>
+  <p class="mb-6">Join hundreds of teams already using TechProduct to boost productivity.</p>
+  <a class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition" href="#GetStarted">
+    Get Started Now
+  </a>
+</section>
+
+<footer class=" py-10  border-t border-gray-200 dark:border-gray-700">
+
+<div class="flex flex-wrap  justify-between items-center gap-1 px-4 max-w-7xl mx-auto w-full">
+  <div>
+    <h1>tech product</h1>
+        <p class="text-sm">Tools that empower your team to ship better software.</p>
+
+  </div>
+<div>
+      <h2 class="text-md font-semibold mb-3">Quick Links</h2>
+      <ul class="space-y-2 text-sm">
+        <li><a class="hover:underline" href="#Feature">Features</a></li>
+        <li><a class="hover:underline" href="#Pricing">Pricing</a></li>
+        <li><a class="hover:underline" href="#Testimonials">Testimonials</a></li>
+        <li><a class="hover:underline" href="#GetStarted">Get Started</a></li>
+      </ul>
+    </div>
+ <div>
+      <h2 class="text-md font-semibold mb-3">Resources</h2>
+      <ul class="space-y-2 text-sm">
+        <li><a class="hover:underline" href="#">Blog</a></li>
+        <li><a class="hover:underline" href="#">Help Center</a></li>
+        <li><a class="hover:underline" href="#">Terms & Conditions</a></li>
+        <li><a class="hover:underline" href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+<div>
+      <h2 class="text-md font-semibold mb-3">Follow Us</h2>
+      <div class="flex justify-center md:justify-start gap-4 text-lg">
+        <a class="hover:text-blue-600" href="#"><i class="fab fa-facebook"></i></a>
+        <a class="hover:text-sky-500" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="hover:text-blue-800" href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a class="hover:text-gray-600" href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  
+</div>
+ <div class="text-center mt-10 text-sm text-gray-500 dark:text-gray-400">
+    &copy; 2025 TechProduct. All rights reserved.
+  </div>
+</footer>
+  <script src="./js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" async></script>
+
+</body>
+</html>
